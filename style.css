@@ -1,0 +1,73 @@
+html,body
+{
+	margin:auto;
+	padding:0px;
+	background-image: url("http://wesa.co.in/2.png");
+	overflow: hidden;
+}
+.container-fluid
+{
+	padding: 0px;
+	margin: auto;
+}
+.row
+{
+	margin: 0px;
+}
+.bootstrap-switch
+{	
+	height: 25px !important;
+}
+.bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-primary
+{
+	background-color:#3d3d3d; 
+	background-image:#3d3d3d !important; 
+}
+.iml
+{
+	background-color: transparent;
+}
+.iml:hover
+{
+	background-color: rgba(255,255,255,0.8);
+}
+.lazy
+{
+	cursor: pointer;
+}
+.center
+{
+	text-align: center;
+}
+.rl
+{
+	font-family: 'Roboto', sans-serif;
+}
+.f24
+{
+	font-size: 2em;
+}
+.shift
+{
+	margin-top: 20px;
+}
+#header
+{
+	height: 80px;
+	width: 100%;
+	background-color: #00eaff;
+	box-shadow: 0px 0px 15px #000;
+}
+#top5
+{
+	margin-top: -10px;
+}
+#imgcont
+{
+	height: 570px;
+	overflow-y: scroll;
+}
+#imgcont img
+{
+	margin:20px;	
+}
