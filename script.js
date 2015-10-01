@@ -87,10 +87,9 @@ function callapi(){								////Infinite Scroll function to load images
 	    	var d2 =this['demographic'].China;
 	    	var d3 =this['demographic'].India;
 
-	    	$('#0').append("<img src='"
-	    		+url+"' class='img-responsive img-thumbnail lazy ' data-toggle='tooltip' 
-	    		title='Click Twice to Like' name='"+name+"' style='height:200px; width:200px' 
-	    		d1='"+d1+"' d2='"+d2+"' d3='"+d3+"'></img>");
+	    	str ="<img src='"+url+"' class='img-responsive img-thumbnail lazy' data-toggle='tooltip' title='Click Twice to Like' name='"+name+"' style='height:200px; width:200px;' d1='"+d1+"' d2='"+d2+"' d3='"+d3+"'> </img>"; 
+
+	    	$('#0').append(str);
 
 	    });  
 	});
